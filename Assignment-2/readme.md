@@ -13,4 +13,5 @@ Simple tasks or items
 3. Third Item
 
 [Course Website](https://montana-media-arts.github.io/webDesignFall2023/)
+
 [Make links in Markdown](https://montana-media-arts.github.io/webDesignFall2023/topic-02/markdown-links/#) 
