@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact section">
+    <meta name="author" content="Gwenith VanGeystel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="Home.html">Home</a> &vert;
+        <a href="Contact.html">Contact</a> &vert;
+        <a href="About.html">About</a>
+    </nav>
+    <h1>Contact Us</h1>
+    <form id="myForm" onsubmit="return validateForm();">
+        <p>First Name: <input type="text" id="fName">&nbsp;<span id="fNameMessage"></span></p>
+        <p>Last Name: <input type="text" id="lName"></p>
+        <p>Email: <input type="email" id="email">&nbsp;<span id="emailMessage"></span></p>
+        <input type="checkbox" id="confirm"> I agree to the terms and conditions<br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
