@@ -1,16 +1,23 @@
 body {
-    font-family: Arial;
     background-color: 	#808080;
+    padding: 10px;
  }
-footer 
- {
-    background-color: #3FB0AC;
+ header, footer {
+    background-color: #6495ed;
     padding: 35px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: Arial;
+    color: white;
  }
  main {
-    background-color: #173E43;
-    width: 100%;
+    background-color: #e9967a;
+    width: 60%;
     height: 130px;
     float: left;
  }
+ aside {
+    background-color: 	#d2b48c;
+    width: 40%;
+    height: 130px;
+    float: left;
+ }
+ 
