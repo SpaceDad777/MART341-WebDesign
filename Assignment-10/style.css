@@ -5,6 +5,8 @@ body {
  header, footer {
     background-color: #6495ed;
     padding: 35px;
+    text-align: center;
+    font-size: larger;
     font-family: Arial;
     color: white;
  }
@@ -20,4 +22,5 @@ body {
     height: 130px;
     float: left;
  }
+ 
  
