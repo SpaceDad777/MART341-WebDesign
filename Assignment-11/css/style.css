@@ -1,0 +1,33 @@
+center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+body{
+    background-color:darkcyan;
+}
+header, footer {
+    background-color: darkgreen;
+    text-align: center;
+    font-size: larger;
+    color:white;
+    font-family: 'Teko';
+    font-size: 48px;
+}
+main {
+    background-color: darkgray;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Teko';
+    font-size: 24px;
+}
+a {
+    color:blue;
+    transition: color 0.3s;
+    
+}
+
+a:hover {
+    background-color: white;
+}
