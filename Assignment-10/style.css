@@ -9,6 +9,7 @@ body {
     font-size: larger;
     font-family: Arial;
     color: white;
+    
  }
  main {
     background-color: #e9967a;
@@ -22,5 +23,8 @@ body {
     height: 130px;
     float: left;
  }
- 
+ img {
+   width: auto;
+   height: auto;
+ }
  
